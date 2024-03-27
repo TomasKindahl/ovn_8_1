@@ -44,8 +44,6 @@ namespace ovn_8_1
             public long Population { get; set; }
             [Index(2)]
             public string Continent { get; set; }
-            [Index(3)]
-            public string Capital { get; set; }
         }
         static IEnumerable<Nation> ReadAllNations(string filePath)
         {
